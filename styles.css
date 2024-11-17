@@ -535,3 +535,13 @@ html {
     left: 45px;
   }
 }
+
+@media (min-width: 1200px) {
+    .lorem-container {
+        font-size: 2rem;
+        z-index: 4;
+        text-shadow: 3px 2px 5px black;
+    }
+} 
+
+
