@@ -8,11 +8,6 @@ html {
   font-family: "Arial", sans-serif;
 }
 
-@font-face {
-  font-family: "Harry P";
-  src: url("HARRYP_.TTF") format("truetype"); /* Asegúrate de que la ruta sea correcta */
-}
-
 .video-container {
   /* position: relative; */
   width: 100%;
@@ -112,7 +107,7 @@ html {
 }
 
 .title-container h1 {
-  font-family: "Harry P", sans-serif; /* Usa la fuente Harry P */
+  font-family: sans-serif; /* Usa la fuente Harry P */
   font-size: 170px; /* Ajusta el tamaño de la fuente a tu gusto */
   color: #f9c440; /* Cambia el color a blanco */
   z-index: 4; /* Asegúrate de que esté por encima de otros elementos */
