@@ -213,7 +213,7 @@ html {
 
 @media (max-width: 480px) {
   .title-container h1 {
-    top: 12rem;
+    top: 11rem;
     left: 55px;
     position: absolute;
     font-size: 2rem;
