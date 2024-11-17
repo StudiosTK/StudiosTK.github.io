@@ -187,7 +187,7 @@ html {
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1440px) {
   .title-container h1 {
     top: 8rem;
     left: 55px;
