@@ -44,7 +44,7 @@ html {
 }
 
 .content {
-  position: relative;
+  /*position: relative;*/
   z-index: 1;
   text-align: center;
   color: #ffffff;
