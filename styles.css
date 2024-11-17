@@ -187,29 +187,56 @@ html {
   }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 760px) {
   .title-container h1 {
-    font-size: 80px;
+    top: 8rem;
+    left: 55px;
+    position: absolute;
+    font-size: 3rem;
   }
 
   .lorem-container {
-    font-size: 16px;
-    left: 10px;
+    position: fixed;
+    font-size: 14px;
+    left: 55px;
+    top: 240px;
+    right: 55px;
   }
 
   .action-button {
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 12px;
+    padding: 8px 16px;
   }
 
   .lechuza {
     display: none;
   }
 
+  .image-container img {
+    width: 40px;
+  }
+
   #background-video {
     position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
-} */
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-container {
+    position: absolute;
+    left: 45px;
+  }
+}
 
 @media (max-width: 480px) {
   .title-container h1 {
